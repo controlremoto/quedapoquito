@@ -1,0 +1,19 @@
+.container {
+  margin-top: var(--space-lg);
+  display: flex;
+  justify-content: center;
+  gap: var(--space-md);
+}
+
+.icon {
+  width: 28px;
+  height: 28px;
+  opacity: 0.9;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.icon:hover {
+  transform: scale(1.15);
+  opacity: 1;
+}
+

@@ -1,0 +1,40 @@
+/* Design Tokens */
+:root {
+  /* Colors */
+  --color-bg: #090a0f;
+  --color-bg-gradient-start: #1b2735;
+  --color-bg-gradient-end: #090a0f;
+  --color-text: #ffffff;
+  --color-accent: #4cc9f0;
+
+  /* Spacing */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 32px;
+  --space-xl: 48px;
+
+  /* Typography */
+  --font-main: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-size-title: 32px;
+  --font-size-subtitle: 18px;
+  --font-size-body: 16px;
+}
+
+/* Global reset */
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-main);
+}
+
+#root {
+  height: 100%;
+}
